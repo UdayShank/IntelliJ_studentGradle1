@@ -39,7 +39,7 @@ public class studentServices {
         existingStudents.setStandard(StudentRequest.getStandard());
         existingStudents.setSection(StudentRequest.getSection());
         repository.save(StudentRequest);
-        return "Data Saved Successfully" ;
+        return "Data Saved Successfully, you can procceed for another data" ;
     }
 
     public String deleteStudent(String roll){
